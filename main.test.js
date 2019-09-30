@@ -41,7 +41,7 @@ describe('isInDanger', () => {
 })
 
 describe('isCoasting', () => {
-  it('returns whether a grade is between 60 and 71, inclusive', () => {
+  it('returns whether a grade is between 72 and 83, inclusive', () => {
     expect(isCoasting(71)).toBe(false)
     expect(isCoasting(72)).toBe(true);
     expect(isCoasting(83)).toBe(true);
@@ -50,7 +50,7 @@ describe('isCoasting', () => {
 })
 
 describe('isSucceeding', () => {
-  it('returns whether a grade is between 60 and 71, inclusive', () => {
+  it('returns whether a grade is between 84 and 92, inclusive', () => {
     expect(isSucceeding(83)).toBe(false)
     expect(isSucceeding(84)).toBe(true);
     expect(isSucceeding(92)).toBe(true);
