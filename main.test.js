@@ -93,7 +93,7 @@ describe('isTeacher', () => {
 })
 
 describe('isAdmin', () => {
-  it('returns whether the given string is `teacher`', () => {
+  it('returns whether the given string is `admin`', () => {
     expect(isAdmin('student')).toBe(false)
     expect(isAdmin('admn')).toBe(false)
     expect(isAdmin('admin is hard')).toBe(false)
