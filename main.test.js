@@ -92,6 +92,15 @@ describe('isTeacher', () => {
   })
 })
 
+describe('isAdmin', () => {
+  it('returns whether the given string is `teacher`', () => {
+    expect(isAdmin('student')).toBe(false)
+    expect(isAdmin('admn')).toBe(false)
+    expect(isAdmin('admin is hard')).toBe(false)
+    expect(isAdmin('admin')).toBe(true)
+  })
+})
+
 describe('isElementary', () => {
   it('returns whether the given string is `elementary`', () => {
     expect(isElementary('elementary')).toBe(true)
@@ -118,5 +127,12 @@ describe('notAnElementarySchoolAdministrator', () => {
     expect(notAnElementarySchoolAdministrator('elementary', 'teacher')).toBe(true)
     expect(notAnElementarySchoolAdministrator('college', 'guidance counselor')).toBe(true)
     expect(notAnElementarySchoolAdministrator('pre-k', 'admin')).toBe(true)
+  })
+})
+
+describe('differentPeople', () => {
+  it('returns whether two names are identical or not', () => {
+    expect(differentPeople('colin', 'messi')).toBe(true)
+    expect(differentPeople('colin', 'colin')).toBe(false)
   })
 })
