@@ -9,7 +9,7 @@ Let's write some functions!
 * Write a function called `isSucceeding` that takes in a grade (as a number) and returns whether or not its between 84 and 92, _inclusive_.
 * Write a function called `isFailing` that takes in a grade (as a number) and returns whether or not it's below 60.
 * Write a function called `isAcing` that takes in a grade (as a number) and returns whether or not it's above 92.
-* Write a function called `isStudent` that takes in a role (as a string) and returns if its value is `'student'`.
+* Write a function called `isStudent` that takes in a role (as a string) and returns if its value is "student".
 * Write a function called `isTeacher` that takes in a role (as a string) and returns if its value is "teacher".
 * Write a function called `isAdmin` that takes in a role (as a string) and returns if its value is "admin".
 * Write a function called `isElementary` that takes in school level (as a string) and returns if its value is "elementary".
