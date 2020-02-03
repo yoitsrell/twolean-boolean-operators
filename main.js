@@ -75,6 +75,7 @@ module.exports = {
   topScore,
   isInDanger,
   isCoasting,
+  isSucceeding,
   isFailing,
   isAcing,
   isStudent,
