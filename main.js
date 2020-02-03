@@ -1,65 +1,80 @@
-function moreThan5() {
+/********************
+ * YOUR CODE BELOW! *
+ ********************/
 
+
+
+
+
+/********************************************************************************************
+ * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
+ *                              THIS IS FOR INTERNAL USE ONLY                               *
+ *                          DON'T ADD TO OR CHANGE ANYTHING BELOW!                          *
+ ********************************************************************************************/
+
+
+if (typeof moreThan5 === 'undefined') {
+  moreThan5 = undefined;
 }
 
-function topScore() {
-  
+if (typeof topScore === 'undefined') {
+  topScore = undefined;
 }
 
-function isInDanger() {
-
+if (typeof isInDanger === 'undefined') {
+  isInDanger = undefined;
 }
 
-function isCoasting() {
-
+if (typeof isCoasting === 'undefined') {
+  isCoasting = undefined;
 }
 
-function isSucceeding() {
-
+if (typeof isSucceeding === 'undefined') {
+  isSucceeding = undefined;
 }
 
-function isFailing() {
-
+if (typeof isFailing === 'undefined') {
+  isFailing = undefined;
 }
 
-function isAcing() {
-
+if (typeof isAcing === 'undefined') {
+  isAcing = undefined;
 }
 
-function isStudent() {
-
+if (typeof isStudent === 'undefined') {
+  isStudent = undefined;
 }
 
-function isTeacher() {
-
+if (typeof isTeacher === 'undefined') {
+  isTeacher = undefined;
 }
 
-function isAdmin() {
-
+if (typeof isAdmin === 'undefined') {
+  isAdmin = undefined;
 }
 
-function isElementary() {
-
+if (typeof isElementary === 'undefined') {
+  isElementary = undefined;
 }
 
-function notAnElementarySchoolAdministrator() {
-
+if (typeof notAnElementarySchoolAdministrator === 'undefined') {
+  notAnElementarySchoolAdministrator = undefined;
 }
 
-function isMiddleSchoolTeacher() {
-
+if (typeof isMiddleSchoolTeacher === 'undefined') {
+  isMiddleSchoolTeacher = undefined;
 }
 
-function differentPeople() {
-
+if (typeof differentPeople === 'undefined') {
+  differentPeople = undefined;
 }
+
 
 module.exports = {
   moreThan5,
   topScore,
   isInDanger,
   isCoasting,
-  isSucceeding,
   isFailing,
   isAcing,
   isStudent,
