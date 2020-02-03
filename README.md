@@ -15,4 +15,4 @@ Let's write some functions!
 * Write a function called `isElementary` that takes in school level (as a string) and returns if its value is "elementary".
 * Write a function called `isMiddleSchoolTeacher` that takes in a role (as a string) and a level (as a _number_) and returns whether they're both a teacher and the level they teach at is 6-8 _inclusive_.
 * Write a function called `notAnElementarySchoolAdministrator` that takes in a school level (as a string) and a role (as a string) and returns whether they're NOT an elementary school administrator. (An elementary school teacher is not, nor is a middle school administrator.)
-* Write a function called `differentPeople` that takes in two names (as strings) and returns whether they're different.
+* Write a function called `areDifferentPeople` that takes in two names (as strings) and returns whether they're different.
