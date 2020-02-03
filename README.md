@@ -1,4 +1,4 @@
-# Boolean Operators Exercise
+# Twolean - Boolean Comparisons
 
 Let's write some functions!
 
